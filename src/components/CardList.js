@@ -1,10 +1,6 @@
-import React from "react";
 import Card from './Card';
 
 const CardList = ({ robots }) => {
-    // if(true){
-    //     throw new Error('Headache');
-    // }
     return (
         <div>
             {
@@ -24,5 +20,3 @@ const CardList = ({ robots }) => {
 }
 
 export default CardList;
-
-// oct. 4 10:00 a.m. 3490
